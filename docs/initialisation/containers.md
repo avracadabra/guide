@@ -1,0 +1,1 @@
+# Configuration des emplacements et contenants

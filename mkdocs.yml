@@ -1,0 +1,58 @@
+site_name: Avracadabra
+site_description: Guide utilisateur pour la gestion de stock de vrac.
+
+theme:
+  # logo: images/logo.png
+  favicon: images/favicon.png
+  name: material
+  language: fr
+  palette:
+    primary: teal
+    accent: indigo
+
+
+repo_name: avracadabra/guide
+repo_url: https://github.com/avracadabra/guide
+# edit_uri: ""
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Introduction: "index.md"
+  - Premiers pas:
+    - Intro: "initialisation/index.md"
+    - Emplacements: "initialisation/containers.md"
+  - Cas d'usages:
+    - Intro: "cas_usages/index.md"
+  - Procédures:
+    - Intro: "procedures/index.md"
+    - Configuration initiale: "procedures/configuration_initiale.md"
+  - Architecture:
+    - Intro: "architecture/index.md"
+    - Architecture: "architecture/architecture.md"
+  - FAQ: "FAQ.md"
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.magiclink
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/avracadabra
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/avracadabra1
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/Avracadabra-825697851127286

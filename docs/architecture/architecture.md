@@ -4,9 +4,9 @@ L'ensemble des codes source de la stack applicative sont hébergés sous
 l'organisation [Avracadabra](https://github.com/avracadabra).
 
 La pile applicative est composée de 4 éléments: [stock](./#stock),
-[api-gateway](./#API Gateway), [backend](./#backend) et [mobile](./#mobile).
+[api-gateway](./#api-gateway), [backend](./#backend) et [mobile](./#mobile).
 
-A ne pas manquer le chapitre [Assurance qualité](./#Assurance qualité)
+A ne pas manquer le chapitre [Assurance qualité](./#assurance-qualite)
 
 ## Stock
 
@@ -30,6 +30,15 @@ Le dépôt [api-gateway](https://github.com/avracadabra/api-gateway) est le code
 source du service passerelle (ou proxy) jouant un rôle d'intermédiaire entre
 les interfaces utilisateurs ([backend](./#backend) et [mobile](./#moble)) et
 les différents services métiers.
+
+### Services métiers
+
+L'api gateway permet d'agréger des données provenant de plusieurs services tels
+que le service [stock](./#stock), service de gestion de produit (PIM: Product
+Information Management)...
+
+Merci ascynio qui facilite la parallélisation des appels aux différentes API
+métiers grace notamment à la lib [httpx](https://www.python-httpx.org/).
 
 ### Aspects techniques
 

@@ -84,7 +84,7 @@ A ce stade l'objectif sera de s'appuyer sur 2 sources de données:
            A ce state aucune interface graphique prévu pour la création de produit
  - [ ] Des données de l'[OpenData](
 https://fr.wikipedia.org/wiki/Donn%C3%A9es_ouvertes) grâce à
-[Open Food Facts](openfoodfacts.org)
+[Open Food Facts](https://openfoodfacts.org)
 
 A terme (hors scope du sprint) il est envisagé de developer des connecteurs pour
 les services de gestion de produit (PIM) ou d'entreprise (ERP) tel que:
@@ -103,7 +103,7 @@ L'Objectif sera de permettre de faire le premier inventaire pour initialiser
 le stock et visualiser l'état des stocks.
 
 - [ ] Interfaces graphique dans le *backend* permettant un premier inventaire
-      basé sur des produits [Open Food Facts](openfoodfacts.org) sélection par
+      basé sur des produits [Open Food Facts](https://openfoodfacts.org) sélection par
       code barre.
 - [ ] Visualisation des stocks par emplacement ou par produit
 

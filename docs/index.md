@@ -50,8 +50,8 @@ une exigence qualité importante:
 - [x] Mise en place du projet [stock](/architecture/architecture/#stock)
 - [x] Mise en place du projet [api-gateway](/architecture/architecture/#api-gateway)
 - [x] Mise en place du projet [backend](/architecture/architecture/#backend)
+- [x] Mise en oeuvre de cette documentation
 - [ ] Mise en place de tests d'intégration [QA](/architecture/architecture/#assurance-qualite)
-- [ ] Mise en oeuvre de cette documentation
 - [ ] Déploiement d'une instance de test
 
 ### Gestion des emplacements et conteneurs
